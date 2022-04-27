@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crimson-Conspiracy/static/css/main.5185271f.css",
+    "main.js": "/Crimson-Conspiracy/static/js/main.2088415f.js",
+    "static/js/787.f6772952.chunk.js": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js",
+    "index.html": "/Crimson-Conspiracy/index.html",
+    "main.5185271f.css.map": "/Crimson-Conspiracy/static/css/main.5185271f.css.map",
+    "main.2088415f.js.map": "/Crimson-Conspiracy/static/js/main.2088415f.js.map",
+    "787.f6772952.chunk.js.map": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5185271f.css",
+    "static/js/main.2088415f.js"
+  ]
+}
