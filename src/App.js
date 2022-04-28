@@ -1,77 +1,42 @@
 import './App.css';
-import GlitchedWriter, { wait } from 'glitched-writer';
+import GlitchedWriter, { queueWrite, wait } from 'glitched-writer';
 import './style.scss';
-
+import { useEffect, useState } from 'react';
+import debounce from 'lodash.debounce'
 
 
 function App() {
 
-
   const Writer = new GlitchedWriter('#glitch_this', { letterize: true });
+  //Writer.queueWrite('#phrases', 2500, false)
 
-  (async () => {
-    await wait(2500);
-    await Writer.write("THE VESSELS HAVE CONNECTED");
 
-    await wait(2500);
-    await Writer.write("WE WILL BEGIN THE NEXT PHASE");
-
-    await wait(2500);
-    await Writer.write("YOU ARE CLOSE");
-
-    await wait(2500);
-    await Writer.write("CLOSE TO THE NEXT KEY");
-
-    await wait(2500);
-    await Writer.write("IT IS NOT FAR");
-
-    await wait(2500);
-    await Writer.write("BUT BEWARE");
-
-    await wait(2500);
-    await Writer.write("THE EYE AND ITS DEMONS DRAW NEAR");
-
-    await wait(2500);
-    await Writer.write("THE FEAST IS UPON US");
-
-    await wait(2500);
-    await Writer.write("TIME IS SHORT");
-
-    await wait(2500);
-    await Writer.write("FAILURE WILL RESULT IN");
-
-    await wait(2500);
-    await Writer.write("ERADICATION");
-
-    await wait(2500);
-    await Writer.write("DO NOT FEAR");
-
-    await wait(2500);
-    await Writer.write("WE ARE WATCHING");
-
-    await wait(2500);
-    await Writer.write("WE ARE OBSERVING");
-
-    await wait(2500);
-    await Writer.write("WE SEE YOUR PERFORMANCE");
-
-    await wait(2500);
-    await Writer.write("I WILL VISIT YOU");
-
-    await wait(2500);
-    await Writer.write("VERY");
-
-    await wait(2500);
-    await Writer.write("SOON");
-
-    await wait(2500);
-    await Writer.write(" CRIMSON CONSPIRACY 29.04.2022");
-  })();
 
   return (
-
     <div className="App">
-      <div className="text" id="glitch_this"></div>
+      <div className="text" id="glitch_this">
+        <div id="phrases" style={{ display: 'none' }}>
+          <p>THE VESSEL HAS CONNECTED</p>
+          <p>WE WILL BEGIN THE NEXT PHASE</p>
+          <p>YOU ARE CLOSE</p>
+          <p>CLOSE TO THE NEXT KEY</p>
+          <p>IT IS NOT FAR</p>
+          <p>BUT BEWARE</p>
+          <p>THE EYE AND ITS DEMONS DRAW NEAR</p>
+          <p>THE FEAST IS UPON US</p>
+          <p>TIME IS SHORT</p>
+          <p>FAILURE WILL RESULT IN</p>
+          <p>ERADICATION</p>
+          <p>DO NOT FEAR</p>
+          <p>WE ARE WATCHING</p>
+          <p>WE ARE OBSERVING</p>
+          <p>WE SEE YOUR PERFORMANCE</p>
+          <p>I WILL VISIT YOU</p>
+          <p>VERY</p>
+          <p>SOON</p>
+          <p>CRIMSON CONSPIRACY 29.04.2022</p>
+        </div>
+      </div>
     </div>
   );
 }
