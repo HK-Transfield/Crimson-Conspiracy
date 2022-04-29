@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Crimson-Conspiracy/static/css/main.50407f97.css",
+    "main.css": "/Crimson-Conspiracy/static/css/main.bf28b6bb.css",
     "main.js": "/Crimson-Conspiracy/static/js/main.dfaede92.js",
     "static/js/787.f6772952.chunk.js": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js",
     "static/media/eyes.gif": "/Crimson-Conspiracy/static/media/eyes.90d6bd13918f2ea34c1b.gif",
@@ -18,12 +18,12 @@
     "static/media/hurry-2.png": "/Crimson-Conspiracy/static/media/hurry-2.a9e55d029c7572d95d9f.png",
     "static/media/hurry-1.png": "/Crimson-Conspiracy/static/media/hurry-1.27de3d7d306b931c7461.png",
     "index.html": "/Crimson-Conspiracy/index.html",
-    "main.50407f97.css.map": "/Crimson-Conspiracy/static/css/main.50407f97.css.map",
+    "main.bf28b6bb.css.map": "/Crimson-Conspiracy/static/css/main.bf28b6bb.css.map",
     "main.dfaede92.js.map": "/Crimson-Conspiracy/static/js/main.dfaede92.js.map",
     "787.f6772952.chunk.js.map": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50407f97.css",
+    "static/css/main.bf28b6bb.css",
     "static/js/main.dfaede92.js"
   ]
 }
