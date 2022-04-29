@@ -5,16 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Hallway from './routes/Hallway';
+import Painting from './routes/Painting';
+import Window from './routes/Window';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
 
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="Crimson-Conspiracy/" element={<App />} />
-        <Route path="Crimson-Conspiracy/hallway" element={<Hallway />} />
+        <Route path="/" element={<App />} />
+        <Route path="/hallway" element={<Hallway />} />
+        <Route path="/findme" element={<Painting />} />
+        <Route path="/look" element={<Window />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,40 +1,45 @@
-import './App.css';
-import GlitchedWriter, { queueWrite, wait } from 'glitched-writer';
+//import './App.css';
 import './style.scss';
-import { useEffect, useState } from 'react';
-import debounce from 'lodash.debounce'
+import GlitchedWriter from 'glitched-writer';
+import { useEffect } from 'react';
+
+
+const phrases = [
+  "THE VESSEL HAS CONNECTED",
+  "WE WILL BEGIN THE NEXT PHASE",
+  "YOU ARE CLOSE",
+  "CLOSE TO THE NEXT KEY",
+  "IT IS NOT FAR",
+  "BUT BEWARE",
+  "THE EYE AND ITS DEMONS DRAW NEAR",
+  "THE FEAST IS UPON US",
+  "TIME IS SHORT",
+  "FAILURE WILL RESULT IN",
+  "ERADICATION",
+  "DO NOT FEAR",
+  "WE ARE WATCHING",
+  "WE ARE OBSERVING",
+  "WE SEE YOUR PERFORMANCE",
+  "I WILL VISIT YOU",
+  "VERY",
+  "SOON",
+  "CRIMSON CONSPIRACY 29.04.2022",
+]
 
 
 function App() {
 
-  const Writer = new GlitchedWriter('#glitch_this', { letterize: true });
-  //Writer.queueWrite('#phrases', 2500, false)
-
-
+  useEffect(() => {
+    const glitch = document.getElementById('glitch_this');
+    const Writer = new GlitchedWriter(glitch, { letterize: true });
+    Writer.queueWrite(phrases, 2500, false)
+  })
 
   return (
     <div className="App">
       <div className="text" id="glitch_this">
         <div id="phrases" style={{ display: 'none' }}>
-          <p>THE VESSEL HAS CONNECTED</p>
-          <p>WE WILL BEGIN THE NEXT PHASE</p>
-          <p>YOU ARE CLOSE</p>
-          <p>CLOSE TO THE NEXT KEY</p>
-          <p>IT IS NOT FAR</p>
-          <p>BUT BEWARE</p>
-          <p>THE EYE AND ITS DEMONS DRAW NEAR</p>
-          <p>THE FEAST IS UPON US</p>
-          <p>TIME IS SHORT</p>
-          <p>FAILURE WILL RESULT IN</p>
-          <p>ERADICATION</p>
-          <p>DO NOT FEAR</p>
-          <p>WE ARE WATCHING</p>
-          <p>WE ARE OBSERVING</p>
-          <p>WE SEE YOUR PERFORMANCE</p>
-          <p>I WILL VISIT YOU</p>
-          <p>VERY</p>
-          <p>SOON</p>
-          <p>CRIMSON CONSPIRACY 29.04.2022</p>
+
         </div>
       </div>
     </div>
