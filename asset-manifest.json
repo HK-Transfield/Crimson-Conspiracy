@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/Crimson-Conspiracy/static/css/main.5185271f.css",
-    "main.js": "/Crimson-Conspiracy/static/js/main.2088415f.js",
+    "main.css": "/Crimson-Conspiracy/static/css/main.f933fb5e.css",
+    "main.js": "/Crimson-Conspiracy/static/js/main.9e98f148.js",
     "static/js/787.f6772952.chunk.js": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js",
+    "static/media/CC_Corridor.png": "/Crimson-Conspiracy/static/media/CC_Corridor.ee692fa5b4211396bdc2.png",
+    "static/media/find-me.ogg": "/Crimson-Conspiracy/static/media/find-me.13ecec41d4ed134f2ba3.ogg",
+    "static/media/hurry-9.png": "/Crimson-Conspiracy/static/media/hurry-9.75aa07a3929458599ebd.png",
+    "static/media/hurry-8.png": "/Crimson-Conspiracy/static/media/hurry-8.093361899a62755a037b.png",
+    "static/media/hurry-7.png": "/Crimson-Conspiracy/static/media/hurry-7.23c5282d78fb0f7ec947.png",
+    "static/media/hurry-5.png": "/Crimson-Conspiracy/static/media/hurry-5.0508863c37b16613794b.png",
+    "static/media/hurry-6.png": "/Crimson-Conspiracy/static/media/hurry-6.1897bf8727ef9a258e2d.png",
+    "static/media/hurry-4.png": "/Crimson-Conspiracy/static/media/hurry-4.aa23f46bb60d5bf4fa7a.png",
+    "static/media/hurry-3.png": "/Crimson-Conspiracy/static/media/hurry-3.a6a81e35441943ce25cb.png",
+    "static/media/hurry-2.png": "/Crimson-Conspiracy/static/media/hurry-2.a9e55d029c7572d95d9f.png",
+    "static/media/hurry-1.png": "/Crimson-Conspiracy/static/media/hurry-1.27de3d7d306b931c7461.png",
     "index.html": "/Crimson-Conspiracy/index.html",
-    "main.5185271f.css.map": "/Crimson-Conspiracy/static/css/main.5185271f.css.map",
-    "main.2088415f.js.map": "/Crimson-Conspiracy/static/js/main.2088415f.js.map",
+    "main.f933fb5e.css.map": "/Crimson-Conspiracy/static/css/main.f933fb5e.css.map",
+    "main.9e98f148.js.map": "/Crimson-Conspiracy/static/js/main.9e98f148.js.map",
     "787.f6772952.chunk.js.map": "/Crimson-Conspiracy/static/js/787.f6772952.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5185271f.css",
-    "static/js/main.2088415f.js"
+    "static/css/main.f933fb5e.css",
+    "static/js/main.9e98f148.js"
   ]
 }
